@@ -28,19 +28,59 @@
     </nav>
 </header>
 
-<main class="page-content">
+<main class="gallery-page">
 
     <section class="gallery-intro">
-        <h1>Woodworking Projects</h1>
-        <p>
-            A closer look at some of our work
-        </p>
+        <h1>Gallery</h1>
+        <p>A selection of recent woodworking and joinery projects.</p>
     </section>
 
+   <section class="photo-gallery">
+
+    <div class="gallery-stage">
+
+        <button
+            type="button"
+            id="previousPhoto"
+            class="gallery-arrow"
+            aria-label="Previous photograph">
+            &#10094;
+        </button>
+
+        <div class="photo-stack" id="photoStack">
+
+            <figure class="photo-card photo-card-back">
+                <img id="backImage" src="images/gallery/gp3.jpeg" alt="">
+            </figure>
+
+            <figure class="photo-card photo-card-middle">
+                <img id="middleImage" src="images/gallery/gp2.jpeg" alt="">
+            </figure>
+
+            <figure class="photo-card photo-card-front">
+                <img id="frontImage" src="images/gallery/gp1.jpeg" alt="">
+                <figcaption id="photoCaption"></figcaption>
+            </figure>
+
+        </div>
+
+        <button
+            type="button"
+            id="nextPhoto"
+            class="gallery-arrow"
+            aria-label="Next photograph">
+            &#10095;
+        </button>
+
+    </div>
+
+    <span id="photoCounter">1 of 23</span>
+
+</section>
   
 
 
 </main>
-
+<script src="gallery.js"></script>
 </body>
 </html>
