@@ -702,6 +702,15 @@ nav a:hover {
     margin-bottom: 0;
 }
 
+.kitchens-page {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.kitchens-page p {
+    max-width: 700px;
+    margin: 40px auto 20px;
+}
 #photoCounter {
     display: block;
     margin-top: 28px;
