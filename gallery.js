@@ -1,5 +1,5 @@
 const photos = [
-    { file: "gp1.jpeg", caption: "Studs installed according to floorplan" },
+    { file: "gp1.jpeg", caption: "New-build annexe. Studs installed according to floorplan" },
     { file: "gp2.jpeg", caption: "Noggins added..." },
     { file: "gp3.jpeg", caption: "Wide doorway for wheelchair access" },
     { file: "gp4.jpeg", caption: "Plasterboarding inside face before adding insulation" },
@@ -21,7 +21,8 @@ const photos = [
     { file: "gp20.jpeg", caption: "Another built-in fitted with custom MDF shaker doors" },
     { file: "gp21.jpeg", caption: "Damaged skirting repaired..." },
     { file: "gp22.jpeg", caption: "...to match existing." },
-    { file: "gp23.jpeg", caption: "All caused by the cutest puppy!" }
+    { file: "gp23.jpeg", caption: "All caused by the cutest puppy!" },
+    { file: "gp24.jpeg", caption: "Hallmark of quality" }
 ];
 
 let current = 0;
