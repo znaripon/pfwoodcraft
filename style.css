@@ -705,12 +705,26 @@ nav a:hover {
 .kitchens-page {
     text-align: center;
     padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .kitchens-page p {
-    max-width: 700px;
-    margin: 40px auto 20px;
+    width: min(90%, 1000px);
+    margin: 0 auto 20px;
 }
+
+.kitchen-hero {
+    width: min(90%, 1000px);
+    margin: 30px auto 50px;
+}
+
+.kitchen-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 #photoCounter {
     display: block;
     margin-top: 28px;
