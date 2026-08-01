@@ -10,7 +10,7 @@ const photos = [
     { file: "gp9.jpeg", caption: "...then plastered and painted" },
     { file: "gp10.jpeg", caption: "Built-in cupboard on other side removed" },
     { file: "gp11.jpeg", caption: "False pillar for wiring and to align walls" },
-    { file: "gp12.jpeg", caption: "Platform over pips and power for fridge freezer" },
+    { file: "gp12.jpeg", caption: "Platform over pipes and power for fridge freezer" },
     { file: "gp13.jpeg", caption: "Painted, with back-lit fake window to fill gap above fridge" },
     { file: "gp14.jpeg", caption: "Wall mounted 85\" TV with all wiring chased in wall" },
     { file: "gp15.jpeg", caption: "Similar wall mounted TV with brush plates for cables" },
