@@ -12,7 +12,7 @@ const photos = [
 
     {
         file: "kga4.jpeg",
-        chapter: 1
+        chapter: 2
     },
 
     {
@@ -38,6 +38,10 @@ const photos = [
     {
         file: "kga9.jpeg",
         chapter: 3
+    },
+    {
+        file: "kga10.jpeg",
+        chapter: 3
     }
 
 ];
@@ -47,10 +51,7 @@ let current = 0;
 const front = document.getElementById("frontImage");
 const middle = document.getElementById("middleImage");
 const back = document.getElementById("backImage");
-
 const caption = document.getElementById("photoCaption");
-const counter = document.getElementById("photoCounter");
-
 const storyTitle = document.getElementById("storyTitle");
 const storyText = document.getElementById("storyText");
 
@@ -69,38 +70,42 @@ function updateGallery() {
 
     caption.textContent = photos[current].caption;
 
-    counter.textContent =
-        (current + 1) + " of " + photos.length;
-        switch (photos[current].chapter)
-{
+    switch (photos[current].chapter) {
 
     case 1:
 
         storyTitle.textContent =
-            "The Opportunity";
+            "A premium starting point...";
 
         storyText.innerHTML =
-            "<em>Your first narrative goes here...</em>";
+            `<em>What arrived as a van full of seemingly unrelated cabinets was carefully reconfigured
+             into a layout tailored specifically to the customer's home.  Full-drawer cabinets wired with
+             integrated led  lighting and oven housed in a central island</em>`;
 
         break;
 
     case 2:
 
         storyTitle.textContent =
-            "The Transformation";
+            "The finished kitchen";
 
         storyText.innerHTML =
-            "<em>Your second narrative goes here...</em>";
+            `<em>Rich 40mm solid walnut worktops, backlit glazed corner cabinet hiding services,
+             walnut upstands all round.  What a spectacle!  Flooring renewed with skirtings added.
+             Wine-racks utilise redundant space by the fridge with tray storage.  As many of the 
+             original cabinets as possible were re-purposed to maximise storage.
+             Customer's bottle-fed gas hob replaced with induction for compliance.</em>`;
 
         break;
 
     case 3:
 
         storyTitle.textContent =
-            "The Result";
+            "The extra touches";
 
         storyText.innerHTML =
-            "<em>Your final narrative goes here...</em>";
+            `<em>Larder with tambour door, pop-up sockets and stainless insert to complement fridge
+            make this a truly practical space.</em>`;
 
         break;
 }

@@ -725,6 +725,10 @@ nav a:hover {
     height: auto;
 }
 
+.kitchen-gallery {
+    margin-bottom: 30px;
+}
+
 #photoCounter {
     display: block;
     margin-top: 28px;
